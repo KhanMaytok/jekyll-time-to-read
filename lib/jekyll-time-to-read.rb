@@ -8,7 +8,7 @@ WORD_PER_MINUTE = 180
 def calculate_time( input )
   words = input.split.size;
   minutes = ( words / WORD_PER_MINUTE ).floor
-  minutes_label = minutes == 1 ? "minute" : "minutes"
+  minutes_label = minutes == 1 ? "min read" : "mins read"
   return minutes, minutes_label
 end
 
