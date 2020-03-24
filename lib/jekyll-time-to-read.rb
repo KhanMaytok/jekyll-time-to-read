@@ -3,7 +3,7 @@
 # Read this in "about 4 minutes"
 # Usage: Read this in {{ page.content | reading_time_as_i }}
  
-WORD_PER_MINUTE = 180
+WORD_PER_MINUTE = 200
 
 def calculate_time( input )
   words = input.split.size;
